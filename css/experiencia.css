@@ -61,6 +61,12 @@
     align-items: center;
     margin-top: 25px;
 }
+.conteinerProyectosDos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 25px;
+}
 
 @media screen and (max-width:480px) {
     .conteinerProyectos {
