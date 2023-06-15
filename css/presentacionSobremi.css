@@ -1,0 +1,59 @@
+.containerPresentacion {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 80px;
+    margin-left: 80px;
+    background-color: #EDEDED;
+}
+.presentacion {
+    width: 70%;
+}
+.foto {
+    width:30%;
+}
+.tituloPresentacion {
+    font-size: 45px;
+    font-weight: bold;
+}
+.parrafoPresentacion {
+    font-size: 22px;
+    margin-top: 15px;
+}
+.enlacesPresentacion {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.items-presentacion {
+    font-size: 21px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #000000;
+}
+.imagen {
+    height: 230px;
+    width: 210px;
+    border-radius: 120px;
+}
+.seccionSobreMi {
+    margin-top: 20px;
+    background-color: #1f025f;
+    color: rgb(235, 252, 4);
+    font-size: 22px;
+    padding: 40px;
+}
+.tituloSobreMi {
+    font-weight: bold;
+    font-size: 32px;
+}
+.parrafoSobreMi {
+    margin-top: 10px;
+}
+
+@media screen and (max-width:480px) {
+    .containerPresentacion {
+        display: block;
+        width: 100%;
+    }
+}

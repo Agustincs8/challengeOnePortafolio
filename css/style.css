@@ -1,0 +1,31 @@
+.containerPrincipal {
+    background-color: #EDEDED;
+}
+.encabezado .containerEncabezado {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #EDEDED;
+    position: relative;
+    margin-top: 30px;
+    margin-left: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.encabezado-nav {
+    display: flex;
+}
+.conteinerLogo {
+    display: flex;
+    align-items: center;
+}
+.nombre {
+    font-size: 18px;
+}
+.items-nav {
+    padding: 10px;
+    margin-bottom: 10px;
+    color:#000000;
+    background-color: #EDEDED;
+    font-size: 22px;
+    text-decoration: none;
+}

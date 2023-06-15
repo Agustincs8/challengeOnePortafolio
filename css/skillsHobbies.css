@@ -1,0 +1,36 @@
+.skills-hobbies {
+    background-color: #EDEDED;
+    font-size: 35px;
+    text-align: center;
+    font-family: cursive;
+    padding: 25px;
+    margin-top: 20px;
+}
+.conteinerSkills {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.conteinerHobbies {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.tituloHobbies {
+    margin-top: 45px;
+}
+
+@media screen and (max-width:480px) {
+    .conteinerSkills {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .conteinerHobbies {
+        flex-wrap: wrap;
+    }
+}
+@media (min-width: 768px) and (max-width: 990px) {
+    .conteinerSkills {
+        margin-left: 70px;
+    }
+}

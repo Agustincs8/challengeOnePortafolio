@@ -1,0 +1,75 @@
+.seccionExperiencia {
+    background-color: #EDEDED;
+    margin-top: 50px;
+}
+.tituloExperienciaContacto {
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+}
+.imagenEncriptador {
+    width:800px;
+    height: 400px;
+}
+.parrafoTituloProyectos {
+    font-size: 28px;
+    font-weight: bold;
+}
+.parrafoProyectos {
+    font-size: 23px;
+    margin-top: 10px;
+}
+.botonesDemoRepositorio {
+    margin-top: 18px;
+}
+.botonDemo {
+    font-size: 23px;
+    font-weight: bold;
+    color: rgb(235, 252, 4);
+    background: #1f025f;
+    border:none;
+    padding: 12px;
+    transition: 1s background;
+    text-decoration: none;
+}
+.botonDemo:hover {
+    background: #000000;
+    transform: scale(1.1);
+}
+.botonRepositorio {
+    font-size: 23px;
+    font-weight: bold;
+    margin-left: 15px;
+    color: #EDEDED;
+    background:  rgb(136, 154, 202);
+    padding: 12px;
+    transition: 1s background;
+    text-decoration: none;
+}
+.botonRepositorio:hover {
+    background: #000000;
+    transform: scale(1.1);
+}
+.descripcionProyectos {
+    font-size: 18px;
+    margin-top: 45px;
+    font-family: cursive;
+}
+.conteinerProyectos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 25px;
+}
+
+@media screen and (max-width:480px) {
+    .conteinerProyectos {
+        display: block;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 990px) {
+    .conteinerProyectos {
+        display: block;
+    }
+}
