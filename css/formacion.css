@@ -27,14 +27,28 @@
 @media screen and (max-width:480px) {
     .seccionFormacion {
         display: block;
+        width: 780px;
+    }
+    .tituloFormacion {
+        width: 810px;
+        font-size: 48px;
+    }
+    .parrafoFormacion {
+        font-size: 30px;
+    }
+    .conteinerFormacion {
+        margin-top: 35px;
     }
 }
 
 @media (min-width: 768px) and (max-width: 990px) {
     .seccionFormacion {
-        padding: 10px;
+        width: 850px;
     }
     .conteinerFormacion {
-        padding: 10px;
+        margin-left: 10px;
+    }
+    .tituloFormacion {
+        width: 890px;
     }
 }

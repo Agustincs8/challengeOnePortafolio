@@ -61,10 +61,22 @@
         display: none;
     }
     .formularioContacto {
-        margin-left: 180px;
+        margin-left: 540px;
     }
     .parrafoContacto {
-        margin-left: 180px;
+        margin-left: 520px;
+        font-size: 28px;
+        width: 700px;
+    }
+    .itemsContacto {
+        font-size: 25px;
+        width: 85%;
+    }
+    .botonFormulario {
+        font-size: 25px;
+    }
+    .pieDePagina {
+        width: 760px;
     }
 }
 
@@ -73,7 +85,7 @@
         display: none;
     }
     .formularioContacto {
-        margin-left: 100px;
+        margin-left: 40px;
     }
     .parrafoContacto {
         margin-left: 100px;

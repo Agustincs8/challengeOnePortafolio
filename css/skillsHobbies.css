@@ -21,16 +21,17 @@
 }
 
 @media screen and (max-width:480px) {
-    .conteinerSkills {
-        flex-wrap: wrap;
-        justify-content: space-between;
+    .skills-hobbies {
+        width: 500px;
+        margin-left: 140px;
+        font-size: 48px;
     }
-    .conteinerHobbies {
-        flex-wrap: wrap;
+    .conteinerSkills, .conteinerHobbies {
+        display: block;
     }
 }
 @media (min-width: 768px) and (max-width: 990px) {
     .conteinerSkills {
-        margin-left: 70px;
+        margin-left: 120px;
     }
 }

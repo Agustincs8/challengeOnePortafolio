@@ -53,7 +53,38 @@
 
 @media screen and (max-width:480px) {
     .containerPresentacion {
-        display: block;
-        width: 100%;
+        flex-direction: column;
+        width: auto;
+    }
+    .tituloPresentacion {
+        font-size: 55px;
+        width: 580px;
+    }
+    .parrafoPresentacion {
+        font-size: 38px;
+        width: 580px;
+    }
+    .enlacesPresentacion {
+        margin-left: 100px;
+        margin-top: 20px;
+    }
+    .items-presentacion {
+        font-size: 28px;
+    }
+    .foto {
+        margin-left: 170px;
+    }
+    .imagen {
+        height: 250px;
+        width: 230px;
+    }
+    .seccionSobreMi {
+        width: 700px
+    }
+    .tituloSobreMi {
+        font-size: 45px;
+    }
+    .parrafoSobreMi {
+        font-size: 28px;
     }
 }

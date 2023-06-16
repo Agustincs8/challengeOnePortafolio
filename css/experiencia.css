@@ -61,21 +61,38 @@
     align-items: center;
     margin-top: 25px;
 }
-.conteinerProyectosDos {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 25px;
-}
 
 @media screen and (max-width:480px) {
     .conteinerProyectos {
         display: block;
     }
+    .tituloExperienciaContacto {
+        font-size: 46px;
+        margin-left: 330px;
+    }
+    .conteinerProyectosTexto {
+        margin-left: 175px;
+    }
+    .botonesDemoRepositorio, .parrafoTituloProyectos {
+        width: 300px;
+        margin-left: 100px;
+        font-size: 35px;
+    }
+    .descripcionProyectos, .parrafoProyectos {
+        width: 500px;
+        margin-left: 0px;
+        font-size: 24px;
+    }
+    .botonDemo, .botonRepositorio {
+        font-size: 25px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 990px) {
     .conteinerProyectos {
+        display: block;
+    }
+    .conteinerProyectosDos {
         display: block;
     }
 }
