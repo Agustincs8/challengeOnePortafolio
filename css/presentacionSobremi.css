@@ -72,19 +72,19 @@
         font-size: 28px;
     }
     .foto {
-        margin-left: 170px;
+        margin-left: 230px;
     }
     .imagen {
         height: 250px;
         width: 230px;
     }
     .seccionSobreMi {
-        width: 700px
+        width: 770px
     }
     .tituloSobreMi {
         font-size: 45px;
     }
     .parrafoSobreMi {
-        font-size: 28px;
+        font-size: 30px;
     }
 }
