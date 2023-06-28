@@ -27,10 +27,10 @@
 @media screen and (max-width:480px) {
     .seccionFormacion {
         display: block;
-        width: 780px;
+        width: 810px;
     }
     .tituloFormacion {
-        width: 820px;
+        width: 850px;
         font-size: 48px;
     }
     .parrafoFormacion {
